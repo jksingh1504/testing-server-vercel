@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 // the port set by the environment variable $PORT
 const port = process.env.PORT || 3001;
 
-const command = `json-server --watch db.json --port ${port} --routes routes.json`;
+const command = `json-server --watch db.json --port ${port}`;
 
 exec(command, (err, stdout, stderr) => {
   if (err) {
