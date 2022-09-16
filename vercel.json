@@ -1,6 +1,6 @@
 {
     "version":2,
-    "clearnUrls":true,
+    "cleanUrls":true,
     "trailingSlash":false,
     "builds":[
         {
